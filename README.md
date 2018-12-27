@@ -89,3 +89,4 @@ Basic Device configuration To enter a command simply type it in and press enter.
 URL List
  1. Visionect Configurator http://files.visionect.com/VisionectConfigurator2.exe
  2. Visionect Management Server: https://hub.docker.com/r/visionect/visionect-server-v3
+ 
