@@ -15,14 +15,14 @@ services:
     links:
       - "postgres_db:postgres"
     ports:
-      - 8081:8081 # admin browser
-      - 11113:11113
+      - 8081:8081   # admin portal 
+      - 11113:11113 # Database
       - 32991:32991 # GW RPC
-      - 11114:11114 #STORAGE
-      - 11115:11115 #NM
-      - 32989:32989 #NM RPC
-      - 5559:5559 # broker 1
-      - 5560:5560 # broker 2
+      - 11114:11114 # TORAGE
+      - 11115:11115 # NM
+      - 32989:32989 # NM RPC
+      - 5559:5559   # broker 1
+      - 5560:5560   # broker 2
     environment:
       - DB2_1_PORT_5432_TCP_ADDR=postgres
       - DB2_1_PORT_5432_TCP_USER=visionect
